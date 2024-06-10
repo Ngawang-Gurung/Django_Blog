@@ -1,0 +1,10 @@
+{%extends "blog/base.html" %}
+{% block content %}
+    <div class="border-top pt-3">
+        <h3>Login again?</h3>
+        <small class="text-muted">
+            <a href="{% url 'login' %}">---> Login</a> <br>
+            <a href="{% url 'blog-home' %}"><--- Or go back to home.</a>
+        </small>
+    </div>
+{% endblock content %}
